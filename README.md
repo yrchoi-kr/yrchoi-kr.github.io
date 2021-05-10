@@ -12,3 +12,4 @@
   외부 인원(네이버직원이 아닌) 위 포트기준으로 제작한 서비스를 갖다가 사용
 - html : Hyper Text MarkUp Language 태그를 사용하는 언어
 - md : MarkDown Language 태그를 사용하지 않는 언어 (git에서 사용하는 언어)
+- 기업에서 사용가능한 라이선스 1. GNU  2. MIT
