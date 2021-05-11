@@ -10,21 +10,22 @@
             border: 1px solid black;
             font-size: 13px
         }
-        /* style의 주석 Ctrl + / */
+        /* style의 주석 스타일 */
         /* 테이블태그의 테두리 이중선을 1개의 선으로 병합 */
         table { 
             border-collapse:collapse
-        }
+            }
              header, nav, section, aside, footer {
                 border:1px dotted black;
-            }
+                }
         /* css: cascade style sheet 계층형 스타일 표 */
         header > h1, footer > h1, aside > h1,section > h1,article > h1 
         {text-align: center; }
          
         nav{display:block; height:60px; }
         nav>ul>li{
-            float:left; margin-right:20px;
+            float:left; margin-right:90px;
+            
         }
         /*   div#contents div 중 id가 contents인 dev */
         /*   div.contents div 중 class가 contents인 dev */
@@ -68,23 +69,23 @@
     <div class="contents">
     <!-- section>h1{section}+article>h1{article} -->
         <section>
-            <h1>section</h1>
+            <h2>section</h2>
             <article>
-                <h1>article1</h1>
+                <h2>article1</h2>
             </article>
             <article>
-                <h1>article2</h1>
+                <h2>article2</h2>
             </article>
         </section>
     <!-- aside =article Side -->
         <aside>
-            <h1>aside</h1>
+            <h2>aside</h2>
         </aside>
     </div>
     <footer>
-        <h1>
+        <h2>
             footer
-        </h1>
+        </h2>
     </footer>
     <!-- 테이블 태그 제어: 셀병합 -->
     <!-- table, tr(table row), td(Table Data) -->
