@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS 실습</title>
+    <!-- 자바스크립트: JS, JQuery, ES5~7(엑마스크립트) -->
+    <Style>
+        table, tr, td, th {
+            border: 1px solid black;
+            border-collapse: collapse;
+            width: 100%;
+        }
+        th{ width: 25%}
+    </Style>
+</head>
+<body>
+    <table id="board">
+        <tr>
+            <th>id</th>
+            <th>age</th>
+            <th>eyecolor</th>
+            <th>name</th>
+            <tbody></tbody>
+        </tr>
+    </table>
+    <div id="one">헬로 자바 스크립트</div>
+    <script>
+        // 변수=variable 요소(nummber, string, object) 사용에 대해서
+        // 데이터를 사용하는 방법: 변수가 사용
+        // 기본형 : number(수:정수, 실수소수점), string(문자열), boolean(참true, 거짓false)
+        // 사용자정의형: object(array배열형), function(함수-메서드형)
+        var 변수1 = 100; //변수는 한글로 하면 안됨
+        document.write('변수타입은:',typeof(변수1));
+        document.write('<br>'); //br : break return(중지하고 엔터)
+        변수1 = '100';
+        document.write('변수타입은: ', typeof(변수1));
+        // 특징 : 입력된 값에 따라 변수형이 결정 됩니다.
+
+        // 자바스크립트 부터는 프로그램이기 때문에 디버그 용어 사용 (에러 처리)
+        /* 주석사용 개체(태그) 선택방법, 디버그 방법 
+           자바스크립트는 인터프리터(1줄씩 위에서 아래로 해석)언어
+        /* 자바는 컴퍼일언어 (클래스단위로 해석)*/
+    document.getElementById('one').innerHTML = "헬로 <h1>javascript</h2>";
+    document.getElementById('one').innerText = "헬로 <h1>javascript</h2>";
+    var debug = document.getElementById('one');
+    // window.alert(debug.innerText); //디버그 하는 방법1
+    console.log('디버그 방법2');
+    //  console.log(); //디버그 방법 2 ; json 빅 데이터 확인
+    window.alert(debug);
+    // 예전 자바스크립트를 배우는 이유는 iot 때문이다
+    // IOT 임베디드 프로그램에서는 JQuary를 사용못하는 경우가 있음
+    // 위 경우 네이티브 자바 스크립트 사용하게 됩니다.
+    </script>
+</body>
+</html>
