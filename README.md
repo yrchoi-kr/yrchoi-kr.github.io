@@ -1,3 +1,7 @@
+#### 20210512(수) 작업내역
+ - git clone 으로 프로젝트를 가져온 경우 아래 내용을 추가해주셔야합니다.
+ - git config --list 확인해서 user.name, user.email
+
 #### 20210511(화) 작업내역
 - 로렘입숨 한글 URL-http://guny.kr/stuff/klorem/#/table-html
 - 로렘입숨 영어 URL-https://loremipsum.io/
