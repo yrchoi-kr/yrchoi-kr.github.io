@@ -12,10 +12,41 @@
 <!-- 화면 초기화 시키는 reset style import :크로스브라우징 처리하기위해서-->
 <!-- 크롬, IE, 엣지, Safari, firefox의 h1, p, ul, div 태그의 크기가 조금씩 다름 -->
 <!-- 작업한 결과가 모든 브라우저(크로싱 브라우저)에 똑같이 보이게 하기 위한 절차가 reset.css(아래 작업내용) -->
-
-
+<link rel="stylesheet" href="/home/css/reset.css">
+<link rel="stylesheet" href="/home/css/mobile.css">
 <style>
-/* 모바일용 메인페이지 스타일 지정 */
+/* 모바일용 메인페이지 스타일 지정(아래) */
+/* 상단 메뉴 영역 */
+.openMOgnb {
+    /* gnb: global navigation bar 약자 메뉴명칭으로 사용*/
+    display: block; /* 한줄을 다 사용하겠다는 뜻 */
+    position: absolute;
+    left: 15px;
+    top: 35px;
+    width: 25px;
+    height: 16px;
+}
+.hdd {
+    text-indent: -9999px;
+    position: absolute;
+}
+.openMOgnb span {
+    box-sizing: border-box; /* 박스 크기를 테두리 크기로 고정 */
+    display: block;
+    width: 25px; height: 3px;
+    margin-bottom: 4px;
+    border-radius: 10px; /* 테두리 라운드 처리 */
+    background: #fff;
+}
+.openMOgnb span + span {width: 17px;} /* + 형제 인접연산자 */
+.openMOgnb span:last-child {
+    width: 25px;
+    margin-bottom: 0px;
+}
+.header_cont{
+    
+}
+/* //상단 메뉴 영역 */
 </style>
 <script>
 $(document).ready(function() {
@@ -34,7 +65,13 @@ $(document).ready(function() {
 			<!-- //상단로고영역 -->
 			
 			<!-- 상단메뉴메뉴영역 -->
-			<p class="openMOgnb"><a href="#"><b class="hdd">메뉴열기</b> <span></span><span></span><span></span></a></p>
+			<p class="openMOgnb">
+                <a href="#">
+                    <b class="hdd">메뉴열기</b> 
+                <span></span><span></span><span></span> 
+                <!-- span 3개는 햄버거로 변함 -->
+                </a>
+            </p>
 			<div class="header_cont">
 				<ul class="util clear">
 					<li><a href="login.html">로그인</a></li>

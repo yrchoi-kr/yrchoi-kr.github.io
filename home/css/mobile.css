@@ -1,0 +1,76 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+/* 모바일용 메인페이지 스타일 지정 (아래) */
+/* 공통영역 */
+body { /* body a 태그엔 적용이 않됩니다. */
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 16px !important;/* important 중요함, body 폰트크기는 무조건 고정 */
+    letter-spacing: -1px !important;
+    color: #444 !important;
+    word-wrap: break-word !important; /* 워드랩, 줄바꿈할때 단어가 분리가 되지 안되면서 줄바꿈이 됩니다. */
+    line-height: 1 !important; /*단위가 1이면 16px 입니다.*/
+}
+dl, ol, ul { margin-bottom: 0px !important;}
+#container a:hover {color:red !important} /* : 가상 선택자, ::가상요서*/
+a:link {color: #444;}
+a:hover {color: #fff !important;}
+a:visited {color: #444;}
+a {text-decoration: none;} /* 링크의 밑줄이 사라짐 */
+
+
+/* //공통영역 */
+
+/* 부트스트랩 CSS 수정 */
+.clear::after{
+    content: '';
+    clear: both; /* 태그의 위치를 지정하는 float:left|right 속성을 초기화 시킴 */
+    display: block; /* float는 블럭 속성이 없어진것을 clear시키면 , 다시 block 속성을 부여 */
+}
+.txt right {
+    text-align: rignt !important;
+}
+.mt20 {  /*mt 네이밍은 부트스트랩의 네이밍과 같음*/
+    margin-top: 20ㅔㅌ !important;
+}
+.w100p {  /* 너비크기 100% */
+    width: 100% !important;
+}
+/* 부트스트랩 CSS 수정 */
+
+/* 헤더영역 */
+.on {  /*. 클래스 선택자*/
+    background: #32343d;
+}
+header{ /* 태그 선택자*/
+    height: 90px;
+    text-align: center;
+    z-index: 200; /* z-index z순서 x(가로축),y(세로축),z(위쪽)*/
+    /* 빨간색 z-index:0 은 제일 아래, 녹색 z-index:1, 값이 높을 수록 위쪽에 배치 200으로 주는건 작업 중다른 태그에 가려지는것 방지 */
+    background: rgba(0,0,0,0.5); /* 제일 마지막 a 는 alpha 약자 : 투명도 크기  1이 100% */
+    position: absolute; /* relative 다른 태그와 관계(기본값), 위치에서 다른 태그에 영향을 받지 않음 */
+    left: 0; top:0;
+    width: 100%;
+}
+.box_innner {
+    width: 100%; margin: 0 auto;
+}
+/* 헤더영역 */
+/* 로고영역 */
+.header_area h1{
+    float: none;
+    width: 100%;
+    height: 50%;
+    padding: 3px 0px 0px; /* 3px(상하) 0px(좌) 0px(우) */
+}
+.header_area h1 a {
+    /* 로고는 이미지인데 글을 더한 이유는 웹접근성 때문에 추가(스크린 리더 -시각장애인용 홈페이지 리더)  */
+    display: inline-block;
+    width: 150px;
+    height: 80px;
+    background: url(../img/logo.png) no-repeat; /*css3는 함수를 지원합니다. url은 절대 경로 안됨 .현재 폴더 ..상위폴더*/
+    background-size: 50px 60px !important; /* 백그라운드 이미지 사이즈 가로가 50px 세로가 60px */
+    background-position: center center !important; /* 이미지 위치가 가로가 가운데 세로가 가운데 정렬*/
+    text-indent: -9999px; /* 들여쓰기 한 이유는 이미지만 보이고, 글자는 숨기기 위치 */
+    overflow: hidden;
+}
+/* //로고영역 */
