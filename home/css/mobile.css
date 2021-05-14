@@ -106,7 +106,7 @@ header{ /* 태그 선택자*/
     width: 100%;
     background: #31353d;
     margin-top: 0px;
-    /* display: none; */
+    display: none; 
 }
 .closePop {
     display: block;
