@@ -356,7 +356,6 @@ input::placeholder{ /*IE브라우저용 css스타일 크로스브라우징 */
 
 .app_content input{
 	border: none;
-	width: inherit;
 	box-sizing: border-box;
 	display: inline-block;
 	height: 45px;
