@@ -1,0 +1,38 @@
+#culResult { /* 태그 선택자*/
+    text-align: right;
+    height: 40px;
+    padding: 10px;
+    padding-top:20px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background: rgba(151, 149, 149, 0.5); /* 제일 마지막 a 는 alpha 약자 : 투명도 크기  1이 100% */
+    left: 0; top:10;
+    width: 200px;
+    font-size: 25px;
+    /* font: bold; */
+}
+
+button {
+    background: rgba(119, 116, 116, 0.513);
+    border: 0px;
+    width: 50px;
+    height: 30px;
+    margin-top: 10px;
+    font-size: 18px;
+    
+}
+#r1-1 {
+    width: 107px;
+}
+#r5-1 {
+    width: 107px;
+}
+.container {
+    position: relative;
+    top: 200px;
+    left:300px;
+}
+button:hover {
+    cursor: pointer;
+    background-color: rgb(166, 165, 172);
+   }
