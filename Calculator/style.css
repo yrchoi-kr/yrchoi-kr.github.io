@@ -1,14 +1,13 @@
 #culResult { /* 태그 선택자*/
-    text-align: right;
     height: 40px;
     padding: 10px;
     padding-top:20px;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
-    background: rgba(151, 149, 149, 0.5); /* 제일 마지막 a 는 alpha 약자 : 투명도 크기  1이 100% */
+    background: rgba(151, 149, 149, 0.5);
     width: 198px;
+    text-align: right;
     font-size: 25px;
-    /* font: bold; */
 }
 
 button {
@@ -20,12 +19,15 @@ button {
     font-size: 18px;
     
 }
+/* C 버튼 폭 수정 */
 #r1-1 {
     width: 107px;
 }
+/* 0 버튼 폭 수정 */
 #r5-1 {
     width: 106px;
 }
+/* 버튼 폭 세부 조정 */
 #r5-3 {
     margin-left:1px;
 }
@@ -38,11 +40,14 @@ button {
 #r4-3 {
     margin-left:1px;
 }
+/* //버튼 폭 세부 조정 */
+/* HTML상의 계산기 위치 적절하게 배치 */
 .container {
     position: relative;
     top: 200px;
     left:300px;
 }
+/* 버튼 선택시 색 바뀜, 커서 조정 */
 button:hover {
     cursor: pointer;
     background-color: rgb(166, 165, 172);
