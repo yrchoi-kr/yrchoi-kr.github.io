@@ -6,7 +6,7 @@
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
     background: rgba(151, 149, 149, 0.5); /* 제일 마지막 a 는 alpha 약자 : 투명도 크기  1이 100% */
-    width: 200px;
+    width: 198px;
     font-size: 25px;
     /* font: bold; */
 }
@@ -24,7 +24,19 @@ button {
     width: 107px;
 }
 #r5-1 {
-    width: 107px;
+    width: 106px;
+}
+#r5-3 {
+    margin-left:1px;
+}
+#r2-3 {
+    margin-left:1px;
+}
+#r3-3 {
+    margin-left:1px;
+}
+#r4-3 {
+    margin-left:1px;
 }
 .container {
     position: relative;
