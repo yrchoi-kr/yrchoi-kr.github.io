@@ -6,7 +6,6 @@
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
     background: rgba(151, 149, 149, 0.5); /* 제일 마지막 a 는 alpha 약자 : 투명도 크기  1이 100% */
-    left: 0; top:10;
     width: 200px;
     font-size: 25px;
     /* font: bold; */
