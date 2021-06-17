@@ -131,7 +131,7 @@
 - 메인페이지에 자바스크립트(jQuery)적용. - 메뉴, 슬라이드이미지처리, top 상단
 #### 20210513(목) 작업내역
  픽사베이 이미지 3개: 로고1, 슬라이드 이미지1, NoImage 1 받고, 경로 적어놓기
-- 로고: https://pixabay.com/ko/illustrations/%EC%86%90%EC%97%90-%EC%9E%88%EB%8A%94-%EB%A1%9C%ED%84%B0%EC%8A%A4-%EB%A1%9C%ED%84%B0%EC%8A%A4-1889661/
+- 로고: https://pixabay.com/ko/vectors/%eb%91%90%ea%b0%9c%ea%b3%a8-%ec%a3%bd%ec%9d%8c%ec%9d%98-%eb%82%a0-%ec%a3%bd%ec%9d%8c-2028286/
 - 슬라이드이미지: https://pixabay.com/ko/photos/%EA%BB%8D%EC%A7%88-%EB%AA%A8%EB%9E%98-%EB%B9%84%EC%B9%98-%EC%A1%B0%EA%B0%9C-%EB%AC%BC%EA%B0%80-792912/
 - no_img: https://pixabay.com/ko/vectors/%ED%94%8C%EB%9E%98%EA%B7%B8-%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD-%EA%B5%AD%EA%B8%B0-%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD-3029663/
  - 작업 폴더를 나누는 이유: 시청(관공서), 대학, 기업의 웹 프로그램(사이트) 제작 시 제작한 이후에 1년간 무상 유지보수
